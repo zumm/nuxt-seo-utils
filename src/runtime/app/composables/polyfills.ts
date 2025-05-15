@@ -1,10 +1,10 @@
 import { useSiteConfig } from '#site-config/app/composables/useSiteConfig'
 import { ref } from 'vue'
 
-export function useSchemaOrg() {}
+export function useSchemaOrg(_: unknown) {}
 export function defineWebSite() {}
 export function defineWebPage() {}
-export function defineBreadcrumb() {}
+export function defineBreadcrumb(_: unknown) {}
 
 export function useI18n() {
   const siteConfig = useSiteConfig()
